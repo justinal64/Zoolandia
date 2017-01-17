@@ -4,6 +4,7 @@ namespace Zoolandia
 {
     public class Alligator : Animal
     {
+        
         public string Type { get; set; }
         public bool Male { get; set; }
         public string Species { get; set; }
@@ -12,5 +13,6 @@ namespace Zoolandia
         {
             Console.WriteLine("Alligator is awake");
         }
+
     }
 }

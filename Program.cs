@@ -8,28 +8,33 @@ namespace Zoolandia
         {
             //  Animal.cs only
             var Lion = new Animal();
-            Lion.Name = "Scarry";
-            System.Console.WriteLine($"What is the lions name? {Lion.Name}\n");
+            // System.Console.WriteLine($"What is the lions name? {Lion.Name("Scarry")}\n");
 
             // Alligator.cs is inheriting from Animal.cs
             // \n is a linebreak
             var Alligator = new Alligator();
             Alligator.Height = "5.2ft";
-            System.Console.WriteLine($"What is the Alligators height? {Alligator.Height}\n");
+            Alligator.SetAge(5);
+            Console.WriteLine("Alligators Name is " + Alligator.Name);
+            // System.Console.WriteLine($"What is the Alligators height? {Alligator.Height}\n");
 
             // Squirrel.cs is inheriting from Animal.cs
             var Squirrel = new Squirrel();
-            Squirrel.Name = "Justin";
             Squirrel.Fly = false;
-            Squirrel.sleep();
-            System.Console.WriteLine($"What is the squirrels name? {Squirrel.Name} \nDoes the squirrel fly? {Squirrel.Fly}");
+            // System.Console.WriteLine($"What is the squirrels name? {Squirrel.Name("Justin")} \nDoes the squirrel fly? {Squirrel.Fly}");
 
             // Cat.cs is inherting from Animal.cs
             var Cat = new Cat();
-            Cat.Name = "Katie";
             Cat.Carnivore = true;
-            Cat.sleep();
+            Cat.Male = false;
+            Cat.Name = "Scratchy";
             System.Console.WriteLine($"What is the cat's name? {Cat.Name}\nDoes the cat eat meat? {Cat.Carnivore}");
+
+            var JustinsAnimal = new Animal("Justin");
+            JustinsAnimal.SetAge(6);
+            JustinsAnimal.SetHeight(5, "ft");
+            JustinsAnimal.Food = "Rice";
+            Console.WriteLine($"JustinsAnimal Name is {JustinsAnimal.Name} and my age is {JustinsAnimal.Age} and I like {JustinsAnimal.Food} and I am {JustinsAnimal.Height} tall");
         }
     }
 }

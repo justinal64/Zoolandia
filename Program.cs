@@ -21,6 +21,7 @@ namespace Zoolandia
             var Squirrel = new Squirrel();
             Squirrel.Name = "Justin";
             Squirrel.Fly = false;
+            Squirrel.sleep();
             System.Console.WriteLine($"What is the squirrels name? {Squirrel.Name} \nDoes the squirrel fly? {Squirrel.Fly}");
 
             // Cat.cs is inherting from Animal.cs

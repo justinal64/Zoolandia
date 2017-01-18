@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia
 {
-    public class Cat : Animal
+    public class Gorilla : Animal
     {
         public string Size { get; set; }
         public bool Male { get; set; }

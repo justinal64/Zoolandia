@@ -19,7 +19,6 @@ namespace Zoolandia
         }
 
         public int Age { get; set; }
-        // Constructor overloading using int
 
         public string Height { get; set; }
         // Constructor overload using int and string

@@ -1,4 +1,3 @@
-// small cats
 using System;
 
 namespace Zoolandia

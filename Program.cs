@@ -54,6 +54,14 @@ namespace Zoolandia
             // Console.WriteLine($"Koala.Enemy = {Koala.Enemy}");
             // Console.WriteLine($"Koala.Food = {Koala.Food}");
 
+            // Complete
+            var Orangutan = new Orangutan();
+            Orangutan.LifeSpan("75 years");
+            Orangutan.Food = "Trees";
+            Orangutan.HairColor("Pink");
+            Console.WriteLine($"Orangutan.Life = {Orangutan.Life}");
+            Console.WriteLine($"Orangutan.Food = {Orangutan.Food}");
+            Console.WriteLine($"Orangutan.Color = {Orangutan.Color}");
             
 
 

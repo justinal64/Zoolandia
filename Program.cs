@@ -6,19 +6,19 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-
+            // Complete
             // Cat.cs is inherting from Felis.cs which inherits from Animal.cs
-            var Cat = new Cat();
-            Cat.Name = "Tom";
-            Cat.Age = 21;
-            Cat.Food = "Meat";
-            System.Console.WriteLine($"Cat.Name =  {Cat.Name}");
-            System.Console.WriteLine($"Cat.Age =  {Cat.Age}");
-            System.Console.WriteLine($"Cat.Food =  {Cat.Food}");
-            System.Console.WriteLine($"Cat.IsCat =  {Cat.IsCat}");
-            System.Console.WriteLine($"Cat.IsLazy =  {Cat.IsLazy}");
+            // var Cat = new Cat();
+            // Cat.Name = "Tom";
+            // Cat.Age = 21;
+            // Cat.Food = "Meat";
+            // Console.WriteLine($"Cat.Name =  {Cat.Name}");
+            // Console.WriteLine($"Cat.Age =  {Cat.Age}");
+            // Console.WriteLine($"Cat.Food =  {Cat.Food}");
+            // Console.WriteLine($"Cat.IsCat =  {Cat.IsCat}");
+            // Console.WriteLine($"Cat.IsLazy =  {Cat.IsLazy}");
 
-
+            // Complete
             // var Gorilla = new Gorilla();
             // Gorilla.HasHair = false;
             // Gorilla.MeatEater = false;
@@ -27,8 +27,15 @@ namespace Zoolandia
             // Console.WriteLine($"Gorilla.MeatEater = {Gorilla.MeatEater}");
             // Console.WriteLine($"Gorilla.Food = {Gorilla.Food}");
 
+            // Complete
             // var Lemur = new Lemur();
+            // Lemur.Color = "Pink";
+            // Lemur.Dominate("Female");
+            // Lemur.LikeToPlay = true;
+            // Lemur.Home = "Trees";
             // Console.WriteLine($"Lemur.Home = {Lemur.Home}");
+            // Console.WriteLine($"Lemur.LikeToPlay = {Lemur.LikeToPlay}");
+            // Lemur.LiveInTree("Pine Trees");
             
 
 

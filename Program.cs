@@ -36,6 +36,14 @@ namespace Zoolandia
             // Console.WriteLine($"Lemur.Home = {Lemur.Home}");
             // Console.WriteLine($"Lemur.LikeToPlay = {Lemur.LikeToPlay}");
             // Lemur.LiveInTree("Pine Trees");
+
+            // Complete
+            // var BigCats = new BigCats();
+            // BigCats.Food = "Meat";
+            // BigCats.Name = "DontMessWithMe";
+            // BigCats.Sleep(2);
+            // Console.WriteLine($"BigCats.Name = {BigCats.Name}");
+            // Console.WriteLine($"Ths biggest threat to BigCats is {BigCats.GreatestThreat()}");
             
 
 

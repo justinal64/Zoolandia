@@ -4,18 +4,10 @@ namespace Zoolandia
 {
     public class Cat : Felis
     {
-        private bool _tail = true;
-
-        public bool HasTail 
+        // Method will be overridden in Cat.cs
+        public override void Lazy() 
         {
-            get { return _tail; }
-            set { _tail = value; }
-        }
-
-        // overrides method created in Animal.cs
-        public override void sleep() 
-        {
-            Console.WriteLine("Cat is sleeping");
+            IsLazy = false;
         }
     }
     

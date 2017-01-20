@@ -5,8 +5,8 @@ namespace Zoolandia
     public class Animal
     {
         // This sets the default name 
-        // Constructor overloading using string
         public string Name { get; set; }
+        // Constructor overloading using string
         public Animal() 
         { 
             Name = "Bob";
@@ -19,16 +19,6 @@ namespace Zoolandia
         }
 
         public int Age { get; set; }
-        // Constructor overloading using int
-        public void SetAge() 
-        {
-            Age = 2;
-        }
-        public int SetAge(int age)
-        {
-            Age = age;
-            return age;
-        }
 
         public string Height { get; set; }
         // Constructor overload using int and string
@@ -49,6 +39,7 @@ namespace Zoolandia
         {
             Console.WriteLine("Animal is sleeping");
         }
+        
 
     }
 }

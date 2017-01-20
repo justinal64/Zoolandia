@@ -6,35 +6,65 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-            //  Animal.cs only
-            var Lion = new Animal();
-            // System.Console.WriteLine($"What is the lions name? {Lion.Name("Scarry")}\n");
+            // Complete
+            // Cat.cs is inherting from Felis.cs which inherits from Animal.cs
+            // var Cat = new Cat();
+            // Cat.Name = "Tom";
+            // Cat.Age = 21;
+            // Cat.Food = "Meat";
+            // Console.WriteLine($"Cat.Name =  {Cat.Name}");
+            // Console.WriteLine($"Cat.Age =  {Cat.Age}");
+            // Console.WriteLine($"Cat.Food =  {Cat.Food}");
+            // Console.WriteLine($"Cat.IsCat =  {Cat.IsCat}");
+            // Console.WriteLine($"Cat.IsLazy =  {Cat.IsLazy}");
 
-            // Alligator.cs is inheriting from Animal.cs
-            // \n is a linebreak
-            var Alligator = new Alligator();
-            Alligator.Height = "5.2ft";
-            Alligator.SetAge(5);
-            Console.WriteLine("Alligators Name is " + Alligator.Name);
-            // System.Console.WriteLine($"What is the Alligators height? {Alligator.Height}\n");
+            // Complete
+            // var Gorilla = new Gorilla();
+            // Gorilla.HasHair = false;
+            // Gorilla.MeatEater = false;
+            // Gorilla.Food = "Leaves";
+            // Console.WriteLine($"Gorilla.HasHair = {Gorilla.HasHair}");
+            // Console.WriteLine($"Gorilla.MeatEater = {Gorilla.MeatEater}");
+            // Console.WriteLine($"Gorilla.Food = {Gorilla.Food}");
 
-            // Squirrel.cs is inheriting from Animal.cs
-            var Squirrel = new Squirrel();
-            Squirrel.Fly = false;
-            // System.Console.WriteLine($"What is the squirrels name? {Squirrel.Name("Justin")} \nDoes the squirrel fly? {Squirrel.Fly}");
+            // Complete
+            // var Lemur = new Lemur();
+            // Lemur.Color = "Pink";
+            // Lemur.Dominate("Female");
+            // Lemur.LikeToPlay = true;
+            // Lemur.Home = "Trees";
+            // Console.WriteLine($"Lemur.Home = {Lemur.Home}");
+            // Console.WriteLine($"Lemur.LikeToPlay = {Lemur.LikeToPlay}");
+            // Lemur.LiveInTree("Pine Trees");
 
-            // Cat.cs is inherting from Animal.cs
-            var Cat = new Cat();
-            Cat.Carnivore = true;
-            Cat.Male = false;
-            Cat.Name = "Scratchy";
-            System.Console.WriteLine($"What is the cat's name? {Cat.Name}\nDoes the cat eat meat? {Cat.Carnivore}");
+            // Complete
+            // var BigCats = new BigCats();
+            // BigCats.Food = "Meat";
+            // BigCats.Name = "DontMessWithMe";
+            // BigCats.Sleep(2);
+            // Console.WriteLine($"BigCats.Name = {BigCats.Name}");
+            // Console.WriteLine($"Ths biggest threat to BigCats is {BigCats.GreatestThreat()}");
+            
+            // Complete
+            // var Koala = new Koala();
+            // Koala.Home("Tree tops");
+            // Koala.Predator("Humans");
+            // Koala.Food = "Leaves";
+            // Console.WriteLine($"Koala.Home = {Koala.House}");
+            // Console.WriteLine($"Koala.Enemy = {Koala.Enemy}");
+            // Console.WriteLine($"Koala.Food = {Koala.Food}");
 
-            var JustinsAnimal = new Animal("Justin");
-            JustinsAnimal.SetAge(6);
-            JustinsAnimal.SetHeight(5, "ft");
-            JustinsAnimal.Food = "Rice";
-            Console.WriteLine($"JustinsAnimal Name is {JustinsAnimal.Name} and my age is {JustinsAnimal.Age} and I like {JustinsAnimal.Food} and I am {JustinsAnimal.Height} tall");
+            // Complete
+            var Orangutan = new Orangutan();
+            Orangutan.LifeSpan("75 years");
+            Orangutan.Food = "Trees";
+            Orangutan.HairColor("Pink");
+            Console.WriteLine($"Orangutan.Life = {Orangutan.Life}");
+            Console.WriteLine($"Orangutan.Food = {Orangutan.Food}");
+            Console.WriteLine($"Orangutan.Color = {Orangutan.Color}");
+            
+
+
         }
     }
 }

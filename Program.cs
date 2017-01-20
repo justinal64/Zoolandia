@@ -45,6 +45,16 @@ namespace Zoolandia
             // Console.WriteLine($"BigCats.Name = {BigCats.Name}");
             // Console.WriteLine($"Ths biggest threat to BigCats is {BigCats.GreatestThreat()}");
             
+            // Complete
+            // var Koala = new Koala();
+            // Koala.Home("Tree tops");
+            // Koala.Predator("Humans");
+            // Koala.Food = "Leaves";
+            // Console.WriteLine($"Koala.Home = {Koala.House}");
+            // Console.WriteLine($"Koala.Enemy = {Koala.Enemy}");
+            // Console.WriteLine($"Koala.Food = {Koala.Food}");
+
+            
 
 
         }

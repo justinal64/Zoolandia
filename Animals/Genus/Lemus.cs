@@ -5,18 +5,11 @@ namespace Zoolandia
     public class Lemus : Animal
     {
         
-        public string Color { get; set; }
+        
         public string Home { get; set; }
         public string FavTree { get; set; }
         public bool LikeToPlay { get; set; }
-        public Lemus()
-        {
-            Color = "Red Tailed";
-        }
-        public Lemus(string color)
-        {
-            Color = color;
-        }
+
         // Method overloading
         public string LiveInTree()
         {

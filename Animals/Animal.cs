@@ -34,6 +34,17 @@ namespace Zoolandia
         
         public string Weight { get; set; }
         public string Food { get; set; }
+        public string Color { get; set; }
+         public string HairColor()
+        {
+            Color = "Red";
+            return Color;
+        }
+        public string HairColor(string color)
+        {
+            Color = color;
+            return Color;
+        }
 
         public virtual void sleep() 
         {

@@ -24,14 +24,14 @@ namespace Zoolandia
         {
             Console.WriteLine($"hairlength is 2 inch long");
         }
-        public void HairLength(string hairlength)
+        public void HairLength(string hairLength)
         {
-            Console.WriteLine($"hairlength = {hairlength}");
+            Console.WriteLine($"hairlength = {hairLength}");
         }
 
-        public void HairLength(string hairtype, int hairlength)
+        public void HairLength(string hairType, int hairLength)
         {
-            Console.WriteLine($"HairType is {hairtype} and it is {hairlength} inches long");
+            Console.WriteLine($"HairType is {hairType} and it is {hairLength} inches long");
         }
         // Method will be overridden in Cat.cs
         public virtual void Lazy() 

@@ -62,6 +62,11 @@ namespace Zoolandia
             Console.WriteLine($"Orangutan.Life = {Orangutan.Life}");
             Console.WriteLine($"Orangutan.Food = {Orangutan.Food}");
             Console.WriteLine($"Orangutan.Color = {Orangutan.Color}");
+            // Example using an Interface
+            Orangutan.Up();
+            Orangutan.Down();
+            Orangutan.Left();
+            Orangutan.Right();
             
 
 

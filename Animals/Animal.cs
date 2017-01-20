@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia
 {
-    public class Animal
+    public class Animal : IClimb
     {
         // This sets the default name 
         public string Name { get; set; }
@@ -50,7 +50,25 @@ namespace Zoolandia
         {
             Console.WriteLine("Animal is sleeping");
         }
-        
 
+        public void Up()
+        {
+            Console.WriteLine("Going Up");
+        }
+
+        public void Down()
+        {
+            Console.WriteLine("Going Down");
+        }
+
+        public void Left()
+        {
+            Console.WriteLine("Going Left");
+        }
+
+        public void Right()
+        {
+            Console.WriteLine("Going Right");
+        }
     }
 }
